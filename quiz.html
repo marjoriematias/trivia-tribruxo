@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Tribuxo</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <header>
+        <a href="./index.html">
+            <h1>TRIVIA TRIBRUXO</h1>
+        </a>
+    </header>
+    <div class="perguntas">
+        <div class="pergunta1">
+            <h3>Qual é o nome do Elfo-doméstico em que Harry Potter ajudou a ter liberdade?</h3><br>
+            <input type="radio" name="question1"> Monstro<br>
+            <input type="radio" name="question1"> Mestiço<br>
+            <input type="radio" name="question1"> Hobbit<br>
+            <input type="radio" name="question1" id="correct1"> Dobby<br>
+        </div><br>
+        <div class="pergunta2">
+            <h3>Qual destes não é um dos muitos bichinhos de estimação de Hagrid?</h3><br>
+            <input type="radio" name="question2" id="correct2"> Grawp<br>
+            <input type="radio" name="question2"> Fluffy<br>
+            <input type="radio" name="question2"> Aragog<br>
+            <input type="radio" name="question2"> Norberta<br>
+        </div><br>
+        <div class="pergunta3">
+            <h3>Qual dos amigos de James escapou de Azkaban, que também é padrinho de Harry?</h3><br>
+            <input type="radio" name="question3"> Peter Pettigrew<br>
+            <input type="radio" name="question3"> Remus Lupin<br>
+            <input type="radio" name="question3" id="correct3"> Sirius Black<br>
+            <input type="radio" name="question3"> Vincent Crabbe<br>
+        </div><br>
+        <div class="pergunta4">
+            <h3>Qual não era uma das Horcruxes de Voldemort?</h3><br>
+            <input type="radio" name="question4"> Harry<br>
+            <input type="radio" name="question4" id="correct4"> Helga's Diadem<br>
+            <input type="radio" name="question4"> Nagini<br>
+            <input type="radio" name="question4"> Tom Riddle's Diary<br>
+        </div>
+        <div class="resultado">
+            <h3 id="resultadoFinal"></h3>
+        </div>
+        
+        <div id="recomecar">
+            <input id="pegarResultado" type="submit" name="submit" value="Enviar" onclick="result()">
+            <form action="./quiz.html">
+                <input type="submit" value="Recomeçar"></input>
+            </form> 
+        </div> 
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,104 @@
+@import url('http://fonts.cdnfonts.com/css/harry-potter');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Harry Potter', sans-serif;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header h1 {
+    text-align: center;
+    padding: 15px;
+    font-size: 28px;
+    letter-spacing: 5px;
+    font-size: 42px;
+    color: rgb(245, 184, 18);
+}
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    background-color: rgb(75, 18, 129);
+    border-radius: 50px;
+    height: 80px;
+    margin-top: 10px;
+}
+
+p {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 35px;
+    letter-spacing: 7px;
+    color: white;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button input[type='submit'] {
+    color: rgb(245, 184, 18);
+    font-size: 22px;
+    letter-spacing: 8px;
+    background-color: rgb(75, 18, 129);
+    border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+}
+
+.perguntas {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+    font-size: 22px;
+    letter-spacing: 3px;
+    flex-direction: column;
+}
+
+.perguntas input[type=submit] {
+    color: rgb(245, 184, 18);
+    font-size: 22px;
+    text-decoration: none;
+    letter-spacing: 5px;
+    background-color: rgb(75, 18, 129);
+    border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    margin-top: 30px;
+    outline: none;
+}
+
+.perguntas h3 {
+    letter-spacing: 3px;
+}
+
+.resultado {
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 40px;
+    color: rgb(245, 184, 18);
+    letter-spacing: 3px;
+}
+
+#recomecar {
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+#pegarResultado {
+    float: left;
+    margin-right: 20px;
+}
